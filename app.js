@@ -5,13 +5,13 @@ const path= require('path');
 const views = path.join(__dirname,'views');
 
 app.get('/', (req,res) => res.sendFile(path.join(views, 'index.html')))
-app.get('/babbage',(req,res) => res.sendFile(path.join(views, 'babbage.html')))
-app.get('/berners-lee',(req,res) => res.sendFile(path.join(views, 'berners-lee.html')))
-app.get('/clake',(req,res) => res.sendFile(path.join(views, 'clake.html')))
-app.get('/hamilton',(req,res) => res.sendFile(path.join(views, 'hamilton.html')))
-app.get('/hopper',(req,res) => res.sendFile(path.join(views, 'hopper.html')))
-app.get('/lovelace',(req,res) => res.sendFile(path.join(views, 'lovelace.html')))
-app.get('/turing',(req,res) => res.sendFile(path.join(views, 'turing.html')))
+app.get('/bella',(req,res) => res.sendFile(path.join(views, 'bella.html')))
+app.get('/jasmine',(req,res) => res.sendFile(path.join(views, 'jasmine.html')))
+app.get('/merida',(req,res) => res.sendFile(path.join(views, 'merida.html')))
+app.get('/mulan',(req,res) => res.sendFile(path.join(views, 'mulan.html')))
+app.get('/pocahontas',(req,res) => res.sendFile(path.join(views, 'pocahontas.html')))
+app.get('/tiana',(req,res) => res.sendFile(path.join(views, 'tiana.html')))
+app.get('/vaiana',(req,res) => res.sendFile(path.join(views, 'vaiana.html')))
 
 
 app.use(express.static('public'))
