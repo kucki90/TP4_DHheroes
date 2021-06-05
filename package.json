@@ -1,8 +1,8 @@
 {
-  "name": "tp4-DHheroes",
+  "name": "tp4-dhheroes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
